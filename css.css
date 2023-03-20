@@ -1,0 +1,145 @@
+* {
+  font-family: Trebuchet MS, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(237, 231, 221);
+  width: 70%;
+  margin: 0 auto;
+}
+/* mem1 */
+.copyCss label {
+  display: block;
+  font-size: 20px;
+  color: rgb(36, 72, 189);
+  padding: 15px 0;
+  border-top: 1px lightgray solid;
+  cursor: pointer;
+  transition: color 0.5s ease-out;
+}
+.copyCss label:hover {
+  color: black;
+}
+#accordion1 {
+  width: 0;
+  height: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+.img1 {
+  margin: 0 0 0 320px;
+  display: none;
+}
+
+#accordion1:hover + .img1 {
+  display: block;
+}
+/*mem2*/
+.keepCalm label {
+  display: block;
+  font-size: 20px;
+  color: rgb(36, 72, 189);
+  padding: 15px 0;
+  border-top: 1px lightgray solid;
+  cursor: pointer;
+  transition: color 0.5s ease-out;
+}
+.keepCalm label:hover {
+  color: black;
+}
+#accordion2 {
+  width: 0;
+  height: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+.img2 {
+  margin: 0 0 0 320px;
+  display: none;
+}
+#accordion2:hover + .img2 {
+  display: block;
+}
+/* mem3 */
+.balance label {
+  display: block;
+  font-size: 20px;
+  color: rgb(36, 72, 189);
+  padding: 15px 0;
+  border-top: 1px lightgray solid;
+  cursor: pointer;
+  transition: color 0.5s ease-out;
+}
+.balance label:hover {
+  color: black;
+}
+#accordion3 {
+  width: 0;
+  height: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+.img3 {
+  margin: 0 0 0 320px;
+  display: none;
+}
+#accordion3:hover + .img3 {
+  display: block;
+}
+/* mem4 */
+.whereJs label {
+  display: block;
+  font-size: 20px;
+  color: rgb(36, 72, 189);
+  padding: 15px 0;
+  border-top: 1px lightgray solid;
+  cursor: pointer;
+  transition: color 0.5s ease-out;
+}
+.whereJs label:hover {
+  color: black;
+}
+#accordion4 {
+  width: 0;
+  height: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+.img4 {
+  margin: 0 0 0 320px;
+  display: none;
+}
+#accordion4:hover + .img4 {
+  display: block;
+}
+/* mem5 */
+.realax label {
+  display: block;
+  font-size: 20px;
+  color: rgb(36, 72, 189);
+  padding: 15px 0;
+  border-top: 1px lightgray solid;
+  cursor: pointer;
+  transition: color 0.5s ease-out;
+}
+.realax label:hover {
+  color: black;
+}
+#accordion5 {
+  width: 0;
+  height: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+.img5 {
+  margin: 0 0 0 320px;
+  display: none;
+}
+#accordion5:hover + .img5 {
+  display: block;
+}
